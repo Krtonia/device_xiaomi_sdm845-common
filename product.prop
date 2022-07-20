@@ -6,4 +6,8 @@ ro.lmk.log_stats=true
 ro.build.shutdown_timeout=2
 
 # IORap
-persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+persist.device_config.runtime_native_boot.iorap_readahead_enable=false
+ro.iorapd.enable=false
+vendor.iop.enable_prefetch_ofr=0
+iorapd.perfetto.enable=false
+iorapd.readahead.enable=false
