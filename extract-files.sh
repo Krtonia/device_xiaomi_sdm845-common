@@ -50,11 +50,9 @@ while [ "${#}" -gt 0 ]; do
         * )
                 SRC="${1}"
                 ;;
-
 system_ext/lib64/lib-imsvideocodec.so)
-            ${PATCHELF} --add-needed "lib-imsvtshim.so" "${2}"
+            "${PATCHELF}" --add-needed "lib-imsvtshim.so" "${2}"
             ;;
-
     esac
     shift
 done
