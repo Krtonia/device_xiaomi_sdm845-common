@@ -278,7 +278,7 @@ PRODUCT_PACKAGES += \
     org.ifaa.android.manager
 
 # PRODUCT_BOOT_JARS += \
-#    org.ifaa.android.manager
+    org.ifaa.android.manager
 
 # IMS
 PRODUCT_PACKAGES += \
@@ -538,7 +538,7 @@ PRODUCT_PACKAGES += \
     libwfdaac_vendor
 
 # PRODUCT_BOOT_JARS += \
-#    WfdCommon
+  WfdCommon
 
 
 PRODUCT_COPY_FILES += \
