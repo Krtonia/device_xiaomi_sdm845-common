@@ -128,6 +128,15 @@ debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
 vendor.perf.framepacing.enable=1
 
+# Display
+vendor.display.comp_mask=0
+vendor.display.disable_excl_rect=0
+vendor.display.disable_excl_rect_partial_fb=1
+vendor.display.disable_hw_recovery_dump=1
+vendor.display.disable_offline_rotator=1
+vendor.display.disable_scaler=0
+vendor.display.enable_async_powermode=0
+
 # DPM
 persist.vendor.dpm.idletimer.mode=default
 persist.vendor.dpmhalservice.enable=1
