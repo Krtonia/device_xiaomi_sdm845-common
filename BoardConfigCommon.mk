@@ -41,6 +41,7 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := \
     LLVM_IAS=1
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_CONFIG := vendor/sdm845-perf_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
 
 # Platform
